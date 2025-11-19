@@ -4,7 +4,7 @@
 if (!localStorage.getItem("db_init")) {
 
     const packages = [
-        {id:1,name:"Wedding Basic",img:"https://picsum.photos/id/1015/500/300",price:15000,desc:"Decoration + Music + Photography",category:"Wedding"},
+        {id:1,name:"Wedding Basic",img:"pastel-drapes-simple-wedding-decorations.png",price:15000,desc:"Decoration + Music + Photography",category:"Wedding"},
         {id:2,name:"Wedding Royal",img:"1ba90259af4a5dd568f46a17a8c47ebb.jpg",price:35000,desc:"Premium Décor + DJ + Video",category:"Wedding"},
         {id:3,name:"Corporate Basic",img:"https://picsum.photos/id/1025/500/300",price:12000,desc:"Hall + Snacks + Projector",category:"Corporate"},
         {id:4,name:"Corporate Premium",img:"https://picsum.photos/id/1035/500/300",price:30000,desc:"Hall + LED Screen + Lunch",category:"Corporate"},
@@ -334,5 +334,6 @@ if(document.readyState !== 'loading'){
     if(document.getElementById('pkgList')) initAdminPage();
   });
 }
+
 
 
