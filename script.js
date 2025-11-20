@@ -12,7 +12,7 @@ if (!localStorage.getItem("db_init")) {
         {id:6,name:"Birthday Premium",img:"birthday pri.jpg",price:20000,desc:"Theme + Magician + Photoshoot",category:"Birthday"},
         {id:7,name:"Concert Basic",img:"consert fun.jpg",price:25000,desc:"Stage + Basic Sound",category:"Concert"},
         {id:8,name:"Concert Pro",img:"consert pro.jpg",price:60000,desc:"Dolby Sound + Lighting",category:"Concert"},
-        {id:9,name:"Fest Basic",img:"https://picsum.photos/id/1041/500/300",price:15000,desc:"Stage + Mic + Speakers",category:"Fest"},
+        {id:9,name:"Fest Basic",img:"fest fun.jpg",price:15000,desc:"Stage + Mic + Speakers",category:"Fest"},
         {id:10,name:"Fest Premium",img:"https://picsum.photos/id/1037/500/300",price:45000,desc:"DJ + Laser Show + Stage",category:"Fest"}
     ];
 
@@ -334,6 +334,7 @@ if(document.readyState !== 'loading'){
     if(document.getElementById('pkgList')) initAdminPage();
   });
 }
+
 
 
 
